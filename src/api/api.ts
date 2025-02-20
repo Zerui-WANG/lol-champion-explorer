@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const RIOT_API_KEY = 'RGAPI-775a701a-5161-4ab6-94c4-62c20fc99494';
+const RIOT_API_KEY = import.meta.env.VITE_RIOT_API_KEY;
 const BASE_URL = 'https://ddragon.leagueoflegends.com/cdn/15.4.1';
 const RIOT_API_URL = 'https://euw1.api.riotgames.com';
 

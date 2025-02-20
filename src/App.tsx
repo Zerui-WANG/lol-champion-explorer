@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { Dice1 as GamingDice } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { getChampions, getCurrentGame } from './api/api';
-import { SearchBar } from './components/SearchBar';
 import { ChampionCard } from './components/ChampionCard';
 import { LiveGame } from './components/LiveGame';
-import { Dice1 as GamingDice } from 'lucide-react';
+import { SearchBar } from './components/SearchBar';
 import type { Champion, CurrentGame } from './types';
 
 function App() {
